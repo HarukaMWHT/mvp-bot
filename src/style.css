@@ -1,0 +1,16 @@
+.btn-hide{
+    background-color: transparent;
+    border : 0;
+    outline: none;
+    cursor: pointer;
+}
+
+nav {
+    height: 30px;
+    margin: 0;
+}
+#bot-container{
+    height: 600px;
+}
+
+
