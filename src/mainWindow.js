@@ -17,8 +17,8 @@ let mainWindow = new BrowserWindow({
       enableRemoteModule: true,
       
     },
-   width : 420,
-   height : 600,
+   width : 900,
+   height : 730,
    resizable :false,
    //frame : false,
    icon: isDev
@@ -30,7 +30,7 @@ const loadPath = process.platform === 'win32' ?  `file://${path.join(__dirname, 
 `${path.join(__dirname, "./index.html")}`;
 mainWindow.loadURL(
   isDev
-      ? "index.html"
+      ? `${path.join(__dirname, "./index.html")}`
       :
   loadPath
 );
